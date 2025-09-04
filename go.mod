@@ -1,3 +1,3 @@
-module github.com/Brennan7/go-dispatcher
+module github.com/Brennan7/dispatcher
 
-go 1.18
+go 1.22

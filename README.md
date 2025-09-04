@@ -1,6 +1,6 @@
-# go-dispatcher
+# dispatcher
 
-`go-dispatcher` is an easy-to-use Go library designed to facilitate concurrent task processing through a managed worker pool. It allows efficient distribution of tasks across multiple worker goroutines, making it ideal for applications that require parallel execution of independent tasks such as processing jobs, or batching data processing tasks.
+`dispatcher` is an easy-to-use Go library designed to facilitate concurrent task processing through a managed worker pool. It allows efficient distribution of tasks across multiple worker goroutines, making it ideal for applications that require parallel execution of independent tasks such as processing jobs, or batching data processing tasks.
 
 ## Features
 
@@ -13,14 +13,14 @@
 
 ### Prerequisites
 
-- Go 1.18 or higher (https://golang.org/doc/install)
+- Go 1.22 or higher (https://golang.org/doc/install)
 
 ### Installing
 
-To start using `go-dispatcher`, install the package using `go get`:
+To start using `dispatcher`, install the package using `go get`:
 
 ```bash
-go get github.com/Brennan7/go-dispatcher
+go get github.com/Brennan7/dispatcher
 ```
 
 ## Dispatcher Methods
@@ -31,7 +31,7 @@ go get github.com/Brennan7/go-dispatcher
 
 ## Example Usage
 
-For a practical example on how to set up and use the `go-dispatcher`, see the `main.go` file located in the `cmd/example` directory of this repository. This example demonstrates how to initialize the dispatcher, add jobs, and handle graceful shutdowns.
+For a practical example on how to set up and use the `dispatcher`, see the `main.go` file located in the `cmd/example` directory of this repository. This example demonstrates how to initialize the dispatcher, add jobs, and handle graceful shutdowns.
 
 ## License
-go-dispatcher is released under the MIT License. See the LICENSE file for more information.
+dispatcher is released under the MIT License. See the LICENSE file for more information.
