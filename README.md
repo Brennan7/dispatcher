@@ -26,14 +26,17 @@ To start using `dispatcher`, install the package using `go get`:
 go get github.com/Brennan7/dispatcher
 ```
 
-## Dispatcher in a nutshell
+## In a nutshell
+Define a type that implements the Job interface.
+
+Core API
 - New(maxWorkers, queueSize, rateLimiter, hooks) → *Dispatcher
 - Start() — spin up workers
 - AddJob(job) — queue a job
 - Stop() — wait for in-flight work and shut down
 
 ## Example Usage
-See the quick start above or the examples under cmd/examples for a full setup.
+See the examples under cmd/examples for a full setup.
 
 ## License
 dispatcher is released under the MIT License. See the LICENSE file for more information.
